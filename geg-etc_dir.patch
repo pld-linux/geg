@@ -1,0 +1,22 @@
+diff -Nru geg-1.0.2/src/app.c geg-1.0.2.new/src/app.c
+--- geg-1.0.2/src/app.c	Tue Nov 23 23:33:56 1999
++++ geg-1.0.2.new/src/app.c	Sat Mar 29 12:50:15 2003
+@@ -114,9 +114,16 @@
+ parse_rcfile(void)
+ {
+   char rc_file[256];
++  char *etc_dir = getenv("ETC_DIR");
++
+   /* load preferences */
+-  strncpy(rc_file, getenv("HOME"), 248);
+-  strcat(rc_file, "/.gegrc");
++  if (etc_dir) {
++    strncpy(rc_file, etc_dir, 248);
++    strcat(rc_file, "/gegrc");
++  } else {
++    strncpy(rc_file, getenv("HOME"), 248);
++    strcat(rc_file, "/.gegrc");
++  }
+   prefs_rc_parse(rc_file);
+ }
+ 
