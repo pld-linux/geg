@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://www.infolaunch.com/~daveb/%{name}-%{version}.tar.gz
+# Source0-md5:	0c3c15874eb10a0463dc12e680b38081
 Patch0:		%{name}-etc_dir.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
