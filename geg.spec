@@ -12,8 +12,6 @@ BuildRequires:	gtk+-devel
 URL:		http://www.infolaunch.com/~daveb/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 Geg (GTK+ Equation Grapher)is a simple program which will draw
