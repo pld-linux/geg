@@ -2,10 +2,11 @@ Summary:	A program for drawing two-dimensional mathematical functions
 Summary(pl):	Program do rysowania dwuwymiarowych wykresów funkcji matematycznych
 Name:		geg
 Version:	1.0.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://www.infolaunch.com/~daveb/%{name}-%{version}.tar.gz
+Patch0:		%{name}-home_etc.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
@@ -29,6 +30,7 @@ okreslonych regionów mo¿e byæ powiêkszany i zmniejszany.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 rm -f missing
