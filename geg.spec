@@ -27,7 +27,7 @@ Geg (GTK+ Equation Grapher) jest prostym programem rysuj±cym wykresy
 funkcji matematycznych (np. f(x) = 3 + sin(x/2)). Geg pozwala ci na
 ogl±danie wielu wykresów równocze¶nie, przy czym ka¿da funkcja jest
 rysowana innym kolorem. Funkcje mog± byæ selektywnie usuwane. Widok
-okreslonych regionów mo¿e byæ powiêkszany i zmniejszany.
+okre¶lonych regionów mo¿e byæ powiêkszany i zmniejszany.
 
 %prep
 %setup -q
