@@ -5,8 +5,6 @@ Version:	1.0.2
 Release:	2
 License:	GPL
 Group:		Applications/Engineering
-Group(de):	Applikationen/Ingenieurwesen
-Group(pl):	Aplikacje/In¿ynierskie
 Source0:	http://www.infolaunch.com/~daveb/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
