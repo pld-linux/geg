@@ -33,7 +33,7 @@ okreslonych regionów mo¿e byæ powiêkszany i zmniejszany.
 %setup -q
 
 %build
-%configure
+%configure2_13
 %{__make}
 
 %install
