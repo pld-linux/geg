@@ -6,7 +6,7 @@ Release:	3
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://www.infolaunch.com/~daveb/%{name}-%{version}.tar.gz
-Patch0:		%{name}-home_etc.patch
+Patch0:		%{name}-etc_dir.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+-devel
