@@ -36,7 +36,7 @@ okreslonych regionów mo¿e byæ powiêkszany i zmniejszany.
 rm -f missing
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make}
 
