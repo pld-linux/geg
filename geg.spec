@@ -1,4 +1,5 @@
 Summary:	A program for drawing two-dimensional mathematical functions
+Summary(pl):	Program do rysowania dwuwymiarowych wykresów funkcji matematycznych
 Name:		geg
 Version:	1.0.2
 Release:	1
@@ -20,6 +21,13 @@ two-dimensional mathematical functions (e.g., f(x) = 3 + sin(x/2)).
 Geg allows you view multiple functions simultaneously, with each
 function drawn in a different color. Functions can be selectively
 erased. Geg's view can be zoomed in and out on selected regions.
+
+%description -l pl
+Geg (GTK+ Equation Grapher) jest prostym programem rysuj±cym wykresy
+funkcji matematycznych (np. f(x) = 3 + sin(x/2)). Geg pozwala ci na
+ogl±danie wielu wykresów równocze¶nie, przy czym ka¿da funkcja jest
+rysowana innym kolorem. Funkcje mog± byæ selektywnie usuwane. Widok
+okreslonych regionów mo¿e byæ powiêkszany i zmniejszany.
 
 %prep
 %setup -q
