@@ -1,5 +1,5 @@
 Summary:	A program for drawing two-dimensional mathematical functions
-Summary(pl.UTF-8):   Program do rysowania dwuwymiarowych wykresów funkcji matematycznych
+Summary(pl.UTF-8):	Program do rysowania dwuwymiarowych wykresów funkcji matematycznych
 Name:		geg
 Version:	1.0.2
 Release:	3
